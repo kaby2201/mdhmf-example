@@ -3,6 +3,8 @@ The purpose of this project is to demonstrate how microfrontends can be integrat
 
 The legacy application (represented by index.html) employs an outdated version of Bootstrap, while the car component utilizes the latest Bootstrap CSS version. The ``<mdh-car id="card" license="CF30540"></mdh-car>`` element accepts a license property. Whenever this property changes, the ``CarComponent`` is re-rendered to reflect the update.
 
+#### Example:
+https://kaby2201.github.io/mdhmf-example/
 ### Run the app:
 ```
 npm i
